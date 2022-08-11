@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "Nekto Shortcuts",
+    "version": "1.0",
+    "description": "Добавляет возможность назначать комбинации клавишь для основных кнопок на https://nekto.me/audiochat#/",
+    "icons": {
+        "128": "/static/icons/128_icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "commands": {
+        "start_dialog": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Z"
+            },
+            "description": "Начать разговор"
+        },
+        "finish_dialog": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+X"
+            },
+            "description": "Завершить разговор"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.nekto.me/audiochat*"],
+            "js": ["/static/scripts/commands_executor.js"]
+        }
+    ],
+    "offline_enabled": true,
+    "host_permissions": ["*://*.nekto.me/audiochat*"]
+}
