@@ -12,15 +12,17 @@
     "commands": {
         "start_dialog": {
             "suggested_key": {
-                "default": "Ctrl+Shift+Z"
+                "default": "Ctrl+Shift+1"
             },
-            "description": "Начать разговор"
+            "description": "Начать разговор",
+            "global": true
         },
         "finish_dialog": {
             "suggested_key": {
-                "default": "Ctrl+Shift+X"
+                "default": "Ctrl+Shift+2"
             },
-            "description": "Завершить разговор"
+            "description": "Завершить разговор",
+            "global": true
         }
     },
     "content_scripts": [
