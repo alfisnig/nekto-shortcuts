@@ -1,1 +1,1 @@
-# nektome-shortcuts
+# Nekto Shortcuts (google extension)
