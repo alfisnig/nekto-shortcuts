@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Nekto Shortcuts",
     "version": "1.0",
-    "description": "Добавляет возможность назначать комбинации клавишь для основных кнопок на https://nekto.me/audiochat#/",
+    "description": "Добавляет возможность назначать комбинации клавишь для основных кнопок на nekto.me/audiochat",
     "icons": {
         "128": "/static/icons/128_icon.png"
     },
