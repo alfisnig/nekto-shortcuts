@@ -1,9 +1,7 @@
 # Nekto Shortcuts (google extension)
-<br>
-<br>
+<br><br>
 Данное расширение добавляет возможность назначать комбинации клавишь для основных кнопок на nekto.me/audiochat.
-<br>
-<br>
+<br><br>
 ## Установка расширения (его нет в google магазине)
 1. Нужно скачать репозиторий .zip архивом. ![download_extension_github](docs/images/download_extension_github.png)
 2. Распаковать архив с папкой, перейти во вкладку с расширениями браузера (chrome://extensions/) и "Загрузить распакованное расширение". ![upload_extension](docs/images/upload_extension.png) ![uploaded_extension](docs/images/uploaded_extension.png)
