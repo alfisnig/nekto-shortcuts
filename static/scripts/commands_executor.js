@@ -18,7 +18,6 @@ function execute_command(command) {
 function start_dialog() {
     let scan_button = document.getElementsByClassName("scan-button")[0];
     let go_scan_button = document.getElementsByClassName("go-scan-button")[0];
-    console.log(scan_button)
     if (scan_button !== null && scan_button !== undefined)
         scan_button.click();
     else if (go_scan_button !== null && go_scan_button !== undefined)
